@@ -52,7 +52,9 @@
 
 .main-content-button {
     border: none;
+    background-color: #f8f9fa;
     padding: 10px;
+    font-size: 14px;
 }
 /* MAIN CONTENT STYLES END */
 
