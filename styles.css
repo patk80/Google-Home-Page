@@ -3,3 +3,23 @@
     margin: 0;
     padding: 0;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.header-left p,
+.header-right p {
+    padding: 10px;
+}
+
+
+.header-left {
+    display: flex;
+}
+
+.header-right {
+    display: flex;
+}
