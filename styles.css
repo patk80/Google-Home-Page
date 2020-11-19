@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/* HEADER STYLES START */
 .header {
     color: #707575;
     display: flex;
@@ -20,14 +21,18 @@
 .header-right {
     display: flex;
 }
+/* HEADER STYLES END */
 
+/* MAIN CONTENT STYLES START */
 .main-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+/* MAIN CONTENT STYLES END */
 
+/* FOOTER STYLES START */
 .footer {
     background-color: #f2f2f2;
     color: #707575;
@@ -55,3 +60,4 @@
     color: #707575;
     text-decoration: none;
 }
+/* FOOTER STYLES END */
