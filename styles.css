@@ -11,7 +11,7 @@
     font-size: 13px;
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 15px;
 }
 
 .header-left p,
@@ -66,6 +66,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+    padding: 5px 20px;
 }
 
 .footer-left p,
