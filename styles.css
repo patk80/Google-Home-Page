@@ -23,6 +23,12 @@
 .header-right {
     display: flex;
 }
+
+.profile-picture {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
 /* HEADER STYLES END */
 
 /* MAIN CONTENT STYLES START */
