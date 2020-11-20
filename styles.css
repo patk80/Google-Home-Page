@@ -23,8 +23,17 @@
     color: #707575;
 }
 
+.header-left a:hover {
+    text-decoration: underline;
+}
+
 .header-right a {
     color: #000000;
+}
+
+.header-right a:hover {
+    color: #707575;
+    text-decoration: underline;
 }
 
 .header-left,
@@ -37,6 +46,10 @@
 #header-boxes {
     font-size: 20px;
     color: #707575;
+}
+
+#header-boxes:hover {
+    color: #000000;
 }
 
 .profile-picture {
