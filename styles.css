@@ -66,17 +66,18 @@
     width: 550px;
 }
 
-/* .input-search-icon {
-    justify-content: flex-start;
-} */
+#input-search-icon {
+    color: #9aa0a6;
+    margin-right: 3%;
+}
 
 .search-input {
     border: none;
     outline: none;
-    width: 80%;
+    width: 85%;
 }
 
-/* .input-search-icon {
+/* #input-search-icon {
     justify-content: flex-end;
 } */
 
