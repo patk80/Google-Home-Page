@@ -192,4 +192,15 @@
     }
   }
 
+  @media only screen and (max-height: 530px) {
+    .main-content {
+        margin-top: 20px;
+    }
+
+    #Google-logo {
+        height: auto;
+        width: 200px;
+    }
+  }
+
 /* MEDIA QUERIES END */
