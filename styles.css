@@ -95,6 +95,10 @@
     width: 85%;
 }
 
+#input-microphone-icon {
+    color: #4285f4;
+}
+
 .main-content-button {
     border: none;
     border-radius: 3px;
