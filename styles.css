@@ -149,6 +149,7 @@
     height: 12px;
     width: 14px;
     margin-right: 5px;
+    transform: rotate(15deg);
 }
 
 .footer-middle {
