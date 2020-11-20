@@ -85,6 +85,12 @@
     display: flex;
 }
 
+.footer-leaf-image {
+    height: 12px;
+    width: 14px;
+    margin-right: 5px;
+}
+
 .footer-middle {
     display: flex;
     justify-content: center;
