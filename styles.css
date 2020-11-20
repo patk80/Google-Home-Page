@@ -14,8 +14,8 @@
     margin: 15px;
 }
 
-.header-left p,
-.header-right p {
+.header-left a,
+.header-right a {
     padding: 10px;
 }
 
