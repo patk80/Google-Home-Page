@@ -64,7 +64,6 @@
 /* FOOTER STYLES START */
 .footer {
     background-color: #f2f2f2;
-    color: #707575;
     font-size: 14px;
     display: flex;
     justify-content: space-between;
@@ -74,9 +73,11 @@
     padding: 5px 20px;
 }
 
-.footer-left p,
-.footer-right p {
+.footer-left a,
+.footer-right a {
+    color: #707575;
     padding: 10px;
+    text-decoration: none;
 }
 
 .footer-left,
