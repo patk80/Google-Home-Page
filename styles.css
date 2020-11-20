@@ -101,6 +101,10 @@
     font-size: 14px;
     margin: 0 5px;
 }
+
+.main-content-button:hover {
+    box-shadow: 0 0 2px #9aa0a6;
+}
 /* MAIN CONTENT STYLES END */
 
 /* FOOTER STYLES START */
