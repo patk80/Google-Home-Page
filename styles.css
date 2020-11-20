@@ -77,15 +77,12 @@
     width: 85%;
 }
 
-/* #input-search-icon {
-    justify-content: flex-end;
-} */
-
 .main-content-button {
     border: none;
     background-color: #f8f9fa;
     padding: 10px;
     font-size: 14px;
+    margin: 0 5px;
 }
 /* MAIN CONTENT STYLES END */
 
