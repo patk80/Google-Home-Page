@@ -74,9 +74,13 @@
     align-items: center;
     border: rgba(112,117,117, 0.6) 1px solid;
     border-radius: 50px;
-    height: 40px;
+    height: 45px;
     margin: 20px 0 30px 0;
     width: 550px;
+}
+
+#input-div:hover {
+    box-shadow: 0 0 10px #c6c9cc;
 }
 
 #input-search-icon {
