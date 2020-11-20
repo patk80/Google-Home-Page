@@ -10,12 +10,12 @@
     font-size: 13px;
     display: flex;
     justify-content: space-between;
-    margin: 15px;
+    margin: 7px 20px;
 }
 
 .header-left a,
 .header-right a {
-    padding: 10px;
+    padding: 7px;
     text-decoration: none;
 }
 
