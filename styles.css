@@ -7,7 +7,6 @@
 
 /* HEADER STYLES START */
 .header {
-    color: #000000;
     font-size: 13px;
     display: flex;
     justify-content: space-between;
@@ -16,12 +15,16 @@
 
 .header-left a,
 .header-right a {
+    color: #000000;
     padding: 10px;
+    text-decoration: none;
 }
 
 .header-left,
 .header-right {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-picture {
