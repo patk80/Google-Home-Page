@@ -209,7 +209,7 @@
     }
 
     .footer-left {
-        order: 3;
+        order: 2;
     }
 
     .footer-middle {
@@ -218,7 +218,7 @@
     }
 
     .footer-right {
-        order: 2;
+        order: 3;
     }
   }
 
