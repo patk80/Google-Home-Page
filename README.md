@@ -1,2 +1,7 @@
 # Google-Home-Page
-My recration of the Google Home Page using only HTML/CSS. 
+**Languages:** HTML / CSS
+
+**Description:** A recreation of the Google.com search engine page I made using only HTML and CSS. I wanted to challenge myself to build a live web page by looking at it.
+
+## Screenshot of Google.com:
+![](imgs/Screenshot-of-Google.jpg)
