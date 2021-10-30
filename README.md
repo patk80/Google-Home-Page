@@ -3,7 +3,7 @@
 
 **URL:** https://patk80.github.io/Google-Home-Page/
 
-**Description:** A UI recreation of the Google.com search engine page created using only HTML and CSS. I wanted to challenge myself to build a live web page just by looking at it.
+**Description:** A UI recreation of the Google.com search engine page. I wanted to challenge myself to build a web page just by looking at it. Created with HTML and CSS.
 
 ## Screenshot of Google.com:
 
