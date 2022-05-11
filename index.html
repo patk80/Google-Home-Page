@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Recreation of Google.com">
-    <title>Google</title>
-    <link rel="icon" href="imgs/Favicon-32.png" type="image/gif" sizes="16x16">
+    <!-- Custom CSS file -->
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- Friconix Deferred JS file -->
     <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+    <!-- Favicon -->
+    <link rel="icon" href="imgs/Favicon-32.png" type="image/gif" sizes="16x16">
+    <title>Google</title>
 </head>
 <body>
 
-    <div class="main-container">
-<!-- HEADER START -->
+
+    <main role="main">
+    <!-- HEADER START -->
         <header class="header">
             <div class="header-left">
                 <a href="https://about.google.com">About</a>
@@ -23,38 +28,38 @@
             <div class="header-right">
                 <a href="https://mail.google.com/">Gmail</a>
                 <a href="https://www.google.com/imghp">Images</a>
-                <a href="https://about.google/intl/en/products" id="header-boxes"><i class="fas fa-th"></i></a>
+                <a href="https://about.google/intl/en/products" id="header-boxes" aria-label="Google Apps"><i class="fas fa-th"></i></a>
                 <a href="https://accounts.google.com/"><img class="profile-picture" src="imgs/Profile-Picture-Hazzerd-Misleading-Evil.jpg" alt="Profile Picture image"></a>
             </div>
         </header>
-<!-- HEADER END -->
+    <!-- HEADER END -->
 
 
 
-<!-- MAIN CONTENT START -->
+    <!-- MAIN CONTENT START -->
         <section class="main-content">
-
-            <img id="Google-logo" src="imgs/Google-Logo.png" alt="Google Logo">
+            <h1>
+                <img id="Google-logo" src="imgs/Google-Logo.png" alt="Google Logo">
+            </h1>
 
             <div id="input-div">
-                <i class="fi-xwluhl-magnifying-glass-wide" id="input-search-icon"></i>
-                <input class="search-input" type="text">
-                <i class="fas fa-microphone" id="input-microphone-icon"></i>
+                <i class="fi-xwluhl-magnifying-glass-wide" id="input-search-icon" title="Search icon"></i>
+                <input class="search-input" type="text" aria-label="Search">
+                <i class="fas fa-microphone" id="input-microphone-icon" title="Microphone icon"></i>
             </div>
 
             <div class="main-content-buttons">
                 <button class="main-content-button">Google Search</button>
                 <button class="main-content-button">I'm Feeling Lucky</button>
             </div>
-
         </section>
-<!-- MAIN CONTENT END -->
+    <!-- MAIN CONTENT END -->
+    </main>
 
 
 
-
-<!-- FOOTER START -->
-        <footer class="footer">
+    <!-- FOOTER START -->
+        <footer class="footer" role="contentinfo">
             <div class="footer-left">
                 <a href="https://ads.google.com/">Advertising</a>
                 <a href="https://smallbusiness.withgoogle.com/">Business</a>
@@ -72,9 +77,7 @@
                 <a href="https://www.google.com/preferences">Settings</a>
             </div>
         </footer>
-<!-- FOOTER END -->
+    <!-- FOOTER END -->
 
-    </div>
-    
 </body>
 </html>
